@@ -1,2 +1,48 @@
-/* font-family: 'Be Vietnam Pro', sans-serif; */
+/* reset CSS */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1.6rem;
+}
+
+/* mobile first */
+
+/* header */
+
+.desktopMenu {
+    display: none;
+}
+
+.buttonGetStarted {
+    display: none;
+}
+
+.header {
+    width: 30rem;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    margin-top: 4rem;
+}
+
+.imageLogo {
+    width: 40%;
+}
