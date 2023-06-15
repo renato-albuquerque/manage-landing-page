@@ -116,6 +116,10 @@ body {
     cursor: pointer;
 }
 
+.buttonGetStartedMain:hover {
+    filter: opacity(0.7);
+}
+
 /* main, section-2 */
 
 .section-2 {
@@ -188,6 +192,10 @@ body {
     cursor: pointer;
 }
 
+.buttonGetStartedSection-3:hover {
+    filter: opacity(0.7);
+}
+
 /* main, section-4 */
 
 .section-4 {
@@ -218,6 +226,11 @@ body {
     margin-top: 3rem;
 }
 
+.buttonGetStartedWhite:hover {
+    color: hsl(12, 100%, 83%);
+}
+
+
 /* footer */
 
 .footer {
@@ -240,7 +253,8 @@ body {
 
 .inputFooter {
     background-color: var(--very-light-gray);
-    color: var(--dark-grayish-blue);
+    color: var(--bright-red);
+    
     border-radius: 5rem;
     padding: 1rem 3rem;
     font-size: 1.4rem;
@@ -253,6 +267,10 @@ body {
     padding: 1rem 3rem;
     font-size: 1.4rem;
     font-weight: bold;
+}
+
+.buttonGoFooter:hover {
+    background-color: hsl(12, 100%, 83%);
 }
 
 .wrapMenuFooter {
@@ -271,6 +289,10 @@ margin-bottom: 4rem;
     color: var(--dark-grayish-blue);
 }
 
+.menuFooter-a:hover {
+    color: var(--bright-red);
+}
+
 .wrapBrandIconsLogo {
     display: flex;
     flex-direction: column;
@@ -287,6 +309,10 @@ margin-bottom: 4rem;
     margin-bottom: 4rem;
 }
 
+.fa-brands:hover {
+    color: var(--bright-red);
+}
+
 .textFooter {
     color: var(--dark-grayish-blue);
     font-size: 1.2rem;
@@ -301,4 +327,8 @@ margin-bottom: 4rem;
 
 .footer-a {
     color: var(--very-light-gray);
+}
+
+.footer-a:hover {
+    color: var(--bright-red);
 }
