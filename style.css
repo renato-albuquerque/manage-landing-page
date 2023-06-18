@@ -60,19 +60,26 @@ body {
     justify-content: center;
     align-items: center;
     /* background-color: var(--very-light-gray); */
-    background-color: var(--bright-red);
+    background-color: var(--very-light-gray);
     width: 27rem;
     left: 4rem;
     padding: 3rem 0;
     border-radius: 1rem;
 }
 
-
 .open-a {
     line-height: 5rem;
     color: var(--very-dark-blue);
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+.open-a:hover {
+    color: var(--dark-grayish-blue);
+}
+
+.bgBody {
+    background-color: lightgrey;
 }
 
 .header {
