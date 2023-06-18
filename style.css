@@ -49,6 +49,18 @@ body {
     display: none;
 }
 
+.hamburgerMenuItems {
+    display: none;
+}
+
+.open {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .header {
     width: 35.5rem;
     margin: 0 auto;
