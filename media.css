@@ -1,0 +1,74 @@
+/* desktop version */
+
+:root {
+    font-size: 62.5%;
+
+    /* Colors */
+    /* Primary */
+    --bright-red: hsl(12, 88%, 59%);
+    --dark-blue: hsl(228, 39%, 23%);
+
+    /* Neutral */
+    --dark-grayish-blue: hsl(227, 12%, 61%);
+    --very-dark-blue: hsl(233, 12%, 13%);
+    --very-pale-red: hsl(13, 100%, 96%);
+    --very-light-gray: hsl(0, 0%, 98%);
+
+    /* font */
+    --be-vietnam-pro: 'Be Vietnam Pro', sans-serif;
+}
+
+@media (min-width: 1400px) {
+    .container {
+        width: 138rem;
+        border: 1px solid red;
+    }
+
+    .header {
+        width: 138rem;
+        padding: 0 8rem;
+    }
+
+    .desktopMenu {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .desktopMenu-a {
+        color: var(--dark-blue);
+        font-weight: bold;
+        font-size: 1.6rem;
+    }
+
+    .desktopMenu-a:hover {
+        color: var(--dark-grayish-blue);
+    }
+    
+    .buttonGetStarted {
+        border: none;
+        background-color: var(--bright-red);
+        color: var(--very-light-gray);
+        padding: 1.5rem 4rem;
+        border-radius: 5rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        display: block;
+        cursor: pointer;
+    }
+
+    .buttonGetStarted:hover {
+        filter: opacity(0.7);
+    }
+
+    .hamburgerMenu {
+        display: none;
+    }
+
+    .imageLogo {
+        width: 20%;
+    }
+
+
+
+}

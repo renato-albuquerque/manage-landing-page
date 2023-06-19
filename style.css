@@ -59,7 +59,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: var(--very-light-gray); */
     background-color: var(--very-light-gray);
     width: 27rem;
     left: 4rem;
