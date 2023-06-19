@@ -24,9 +24,15 @@
         border: 1px solid red;
     }
 
+    /* header */
+
     .header {
         width: 138rem;
         padding: 0 8rem;
+    }
+
+    .navigation {
+        margin-bottom: 10rem;
     }
 
     .desktopMenu {
@@ -69,6 +75,69 @@
         width: 20%;
     }
 
+    /* main, section-1 */
+
+    .main {
+        width: 138rem;
+        padding: 0 8rem;
+    }
+    
+    .section-1 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .imageSection-1 {
+        width: 70%;
+    }
+
+    .titleSection-1 {
+        font-size: 5rem;
+        text-align: left; 
+        margin-bottom: 2rem;
+    }
+    
+    .textSection-1 {
+        font-size: 2rem;
+        text-align: left;
+        margin-bottom: 4rem;
+        width: 75%;
+    }
+    
+    .buttonGetStartedMain {
+        margin: auto 0 auto 2rem;
+        font-size: 2rem;
+    }
+
+    /* main, section-2 */
+
+    .section-2 {
+        display: flex;
+        justify-content: space-between;
+        gap: 5rem;
+    }
+
+    .titleSection-2-3 { /* Using in other section too. */
+        font-size: 3rem;
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+
+    .textSection-2 {
+        text-align: left;
+        font-size: 2rem;
+        width: 75%;
+    }
+
+    .wrapNumberSubtitleText {
+        margin-top: 0rem;
+    }
+
+    .subtitleSection-2 {
+        width: auto;
+    }
 
 
 }
