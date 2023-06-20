@@ -21,7 +21,6 @@
 @media (min-width: 1400px) {
     .container {
         width: 138rem;
-        border: 1px solid red;
     }
 
     /* header */
@@ -174,6 +173,7 @@
         justify-content: space-between;
         align-items: center;
 
+
         padding-top: 5rem;
         padding-right: 8rem;
         padding-bottom: 5rem;
@@ -198,12 +198,32 @@
 
     .footer {
         width: 138rem;
-        margin: 0 auto;
-        background-color: var(--very-dark-blue);
-        padding-top: 4rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-bottom: 4rem;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: baseline;
+        padding-top: 5rem;
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+    .wrapBrandIconsLogo {
+        flex-direction: column-reverse;
+        gap: 10rem;
+    }
+
+    .wrapMenuFooter {
+        gap: 10rem;
+    }
+
+    /* footer-2 */
+
+    .footer-2 {
+        width: 138rem;
+    }
+
+    .textFooterFirst {
+        width: 50rem;
     }
     
 }
