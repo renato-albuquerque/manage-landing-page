@@ -38,17 +38,18 @@
     .desktopMenu {
         display: flex;
         align-items: center;
-        gap: 2rem;
+        gap: 3rem;
     }
 
     .desktopMenu-a {
         color: var(--dark-blue);
-        font-weight: bold;
         font-size: 1.6rem;
     }
 
     .desktopMenu-a:hover {
         color: var(--dark-grayish-blue);
+        font-weight: bold;
+        transition: all .3s;
     }
     
     .buttonGetStarted {
@@ -79,7 +80,7 @@
 
     .main {
         width: 138rem;
-        padding: 0 8rem;
+        /* padding: 0 8rem; */
     }
     
     .section-1 {
@@ -87,6 +88,7 @@
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
+        padding: 0 8rem;
     }
 
     .imageSection-1 {
@@ -116,28 +118,92 @@
     .section-2 {
         display: flex;
         justify-content: space-between;
-        gap: 5rem;
+        gap: 10rem;
+        padding: 0 8rem;
     }
 
-    .titleSection-2-3 { /* Using in other section too. */
+    .titleSection-2 { /* Using in other section too. */
         font-size: 3rem;
         text-align: left;
         margin-bottom: 2rem;
     }
 
     .textSection-2 {
-        text-align: left;
+        text-align: justify;
         font-size: 2rem;
-        width: 75%;
+        width: 100%;
+        margin-bottom: 4rem;
     }
 
     .wrapNumberSubtitleText {
         margin-top: 0rem;
     }
 
-    .subtitleSection-2 {
-        width: auto;
+    .wrapNumberSubtitle {
+        background-color: white;
+        margin-bottom: 2rem;
     }
 
+    .numberSection-2 {
+        padding: 1rem 3rem;
+        font-size: 2rem;
+    }
 
+    .subtitleSection-2 {
+        width: auto;
+        background-color: white;
+        font-size: 2rem;
+    }
+
+    /* main, section-3 */
+
+    .buttonGetStartedSection-3 {
+        font-size: 2rem;
+    }
+
+    .titleSection-3 { /* Using in other section too. */
+        text-align: center;
+    }
+
+    /* main, section-4 */
+
+    .section-4 {        
+        width: 138rem;
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding-top: 5rem;
+        padding-right: 8rem;
+        padding-bottom: 5rem;
+        padding-left: 8rem;
+    }
+
+    .titleSection-4 {
+        text-align: left;   
+        width: 40rem;
+    }
+    
+    br {
+        display: none;
+    }
+
+    .buttonGetStartedWhite {
+        font-size: 2rem;
+        margin-top: 0;
+    }
+
+    /* footer */
+
+    .footer {
+        width: 138rem;
+        margin: 0 auto;
+        background-color: var(--very-dark-blue);
+        padding-top: 4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 4rem;
+    }
+    
 }
