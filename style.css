@@ -213,14 +213,50 @@ body {
     padding: 0 2rem;
     font-size: 2.5rem;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
 }
 
+.containerImages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
 
+/* .fa-circle-chevron-left, .fa-circle-chevron-right {
+    font-size: 3rem;
+    color: var(--bright-red);
+    font-weight: bold;
+    cursor: pointer;
+} */
 
+.wrapSlider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageSlider {
+    width: 30%;
+    margin-bottom: 2rem;
+}
+
+.nameSlider {
+    font-size: 1.8rem;
+    color: var(--dark-blue);
+    margin-bottom: 2rem;
+}
+
+.textSlider {
+    font-size: 1.5rem;
+    color: var(--dark-grayish-blue);
+    text-align: center;
+    line-height: 3rem;
+}
 
 .buttonGetStartedSection-3 {
-    margin: 3rem auto 0 auto;
+    margin: 5rem auto 0 auto;
     border: none;
     background-color: var(--bright-red);
     color: var(--very-light-gray);
