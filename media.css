@@ -164,6 +164,10 @@
         text-align: center;
     }
 
+    .containerImages {
+        flex-direction: row;
+    }
+
     /* main, section-4 */
 
     .section-4 {        
